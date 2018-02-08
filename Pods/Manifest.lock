@@ -1,0 +1,15 @@
+PODS:
+  - Colorify (1.2)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - Colorify (~> 1.2)
+  - SnapKit (~> 4.0.0)
+
+SPEC CHECKSUMS:
+  Colorify: 9bfa160a80d8c66e31c99aa691a1446c41221801
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: a2d103471781f6accbf74910b704b8bfe75c5eb8
+
+COCOAPODS: 1.4.0
