@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3AE3C3BD202CC00900247832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3C3BC202CC00900247832 /* AppDelegate.swift */; };
-		3AE3C3BF202CC00900247832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3C3BE202CC00900247832 /* ViewController.swift */; };
-		3AE3C3C2202CC00900247832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE3C3C0202CC00900247832 /* Main.storyboard */; };
 		3AE3C3C4202CC00900247832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE3C3C3202CC00900247832 /* Assets.xcassets */; };
 		3AE3C3C7202CC00900247832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE3C3C5202CC00900247832 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -17,8 +15,6 @@
 /* Begin PBXFileReference section */
 		3AE3C3B9202CC00900247832 /* BeaconHotNCold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconHotNCold.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE3C3BC202CC00900247832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3AE3C3BE202CC00900247832 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3AE3C3C1202CC00900247832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AE3C3C3202CC00900247832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AE3C3C6202CC00900247832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AE3C3C8202CC00900247832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				3AE3C3BC202CC00900247832 /* AppDelegate.swift */,
-				3AE3C3BE202CC00900247832 /* ViewController.swift */,
-				3AE3C3C0202CC00900247832 /* Main.storyboard */,
 				3AE3C3C3202CC00900247832 /* Assets.xcassets */,
 				3AE3C3C5202CC00900247832 /* LaunchScreen.storyboard */,
 				3AE3C3C8202CC00900247832 /* Info.plist */,
@@ -125,7 +119,6 @@
 			files = (
 				3AE3C3C7202CC00900247832 /* LaunchScreen.storyboard in Resources */,
 				3AE3C3C4202CC00900247832 /* Assets.xcassets in Resources */,
-				3AE3C3C2202CC00900247832 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +129,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AE3C3BF202CC00900247832 /* ViewController.swift in Sources */,
 				3AE3C3BD202CC00900247832 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +136,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3AE3C3C0202CC00900247832 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AE3C3C1202CC00900247832 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3AE3C3C5202CC00900247832 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -277,6 +261,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CRLRD53RWG;
 				INFOPLIST_FILE = BeaconHotNCold/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maimaios.BeaconHotNCold;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +277,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CRLRD53RWG;
 				INFOPLIST_FILE = BeaconHotNCold/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maimaios.BeaconHotNCold;
 				PRODUCT_NAME = "$(TARGET_NAME)";
