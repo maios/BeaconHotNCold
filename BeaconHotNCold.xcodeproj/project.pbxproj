@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A5671C020376F80003AC9C5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5671BF20376F80003AC9C5 /* WelcomeViewController.swift */; };
+		3A5671C3203770CD003AC9C5 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5671C2203770CD003AC9C5 /* Factory.swift */; };
 		3AE3C3BD202CC00900247832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3C3BC202CC00900247832 /* AppDelegate.swift */; };
 		3AE3C3C4202CC00900247832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE3C3C3202CC00900247832 /* Assets.xcassets */; };
 		3AE3C3C7202CC00900247832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE3C3C5202CC00900247832 /* LaunchScreen.storyboard */; };
@@ -15,6 +17,8 @@
 
 /* Begin PBXFileReference section */
 		31B8916FEE834326645AD0F9 /* Pods-BeaconHotNCold.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeaconHotNCold.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeaconHotNCold/Pods-BeaconHotNCold.debug.xcconfig"; sourceTree = "<group>"; };
+		3A5671BF20376F80003AC9C5 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		3A5671C2203770CD003AC9C5 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		3AE3C3B9202CC00900247832 /* BeaconHotNCold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconHotNCold.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE3C3BC202CC00900247832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AE3C3C3202CC00900247832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +40,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A5671BE20376F59003AC9C5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A5671BF20376F80003AC9C5 /* WelcomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3A5671C1203770C1003AC9C5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3A5671C2203770CD003AC9C5 /* Factory.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		3AE3C3B0202CC00900247832 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +77,8 @@
 		3AE3C3BB202CC00900247832 /* BeaconHotNCold */ = {
 			isa = PBXGroup;
 			children = (
+				3A5671C1203770C1003AC9C5 /* Utils */,
+				3A5671BE20376F59003AC9C5 /* Controllers */,
 				3AE3C3BC202CC00900247832 /* AppDelegate.swift */,
 				3AE3C3C3202CC00900247832 /* Assets.xcassets */,
 				3AE3C3C5202CC00900247832 /* LaunchScreen.storyboard */,
@@ -215,6 +237,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AE3C3BD202CC00900247832 /* AppDelegate.swift in Sources */,
+				3A5671C020376F80003AC9C5 /* WelcomeViewController.swift in Sources */,
+				3A5671C3203770CD003AC9C5 /* Factory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
