@@ -5,5 +5,6 @@ target 'BeaconHotNCold' do
 
 pod 'SnapKit', '~> 4.0.0'
 pod 'Colorify', '~> 1.2'
+pod 'FontAwesome.swift'
 
 end
